@@ -24,6 +24,8 @@ function animaAnimaisNumero(){
       const animaisResponse = await fetch(url);
      
       const animaisJSON = await animaisResponse.json();
+
+      
       animaisJSON.forEach((animal) => preencherAnimais(animal));
       animaAnimaisNumero();
     } catch (erro) {
