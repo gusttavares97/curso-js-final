@@ -15,6 +15,8 @@ TabNav.init();
 
 const scollAnima =new ScrollAnima('[data-anime="scroll"]', )
 scollAnima.init()
+scollAnima.stop()
+
 
 
 initScrollSuave();
